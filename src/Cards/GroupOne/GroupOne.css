@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+.activity-card {
+  width: 660px;
+  height: 184px;
+
+  border-radius: 16px;
+
+  font-family: "Open Sans";
+}
+
+.activity-card.dark {
+  background: linear-gradient(90.02deg, #25335a 0.02%, #141824 113.01%);
+
+  color: #fff;
+}
+
+.activity-card .card-body {
+  display: flex;
+  padding: 16px 50px 35px 40px;
+  height: calc(100% - 16px - 35px);
+
+  justify-content: space-between;
+}
+
+.activity-card .card-info {
+  text-align: left;
+  align-self: flex-end;
+}
+
+.activity-card .info-label {
+  font-size: 24px;
+}
+
+.activity-card .info-data {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.activity-card .card-image {
+  position: relative;
+  width: 232px;
+}
+
+.activity-card .card-image img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
